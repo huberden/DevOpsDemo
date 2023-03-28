@@ -95,14 +95,23 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen bei DevOps</h4>",
+                            "value": "<h4>Willkommen auf der neuen DevOps Seite</h4>",
                             "newRow": true
                         },
                         {
                             "type": "button",
-                            "name": { default: "ToDo-List" },
-                            "icon": "fa-file-alt",
+                            "name": { default: "Lernjournal von Dennis" },
+                            "icon": "fa-thin fa-clipboard",
                             "color": "wet-asphalt",
+                            "page": "toDoPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Semesterwochen" },
+                            "icon": "fa-thin fa-book",
+                            "color": "wisteria",
                             "page": "toDoPage",
                             "width": 2,
                             "newRow": true,
