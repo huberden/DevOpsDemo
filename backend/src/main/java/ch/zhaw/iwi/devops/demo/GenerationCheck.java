@@ -17,6 +17,8 @@ public class GenerationCheck {
             return "Generation Silent";
         } else if (jahrgang >= 2026 && jahrgang <= 2040){
             return "Generation Beta";
+        } else if (jahrgang < 0){
+            return "bevor Christus";
         } else {
             return "unbestimmt";
         }

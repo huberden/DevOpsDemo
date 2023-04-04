@@ -74,6 +74,6 @@ public class GenerationCheckTest {
 
     public void GenerationCheckNodate2(){
         GenerationCheck ac = new GenerationCheck();
-        assertEquals("bevor Christus", -1);
+        assertEquals("bevor Christus", ac.Checking(-2000));
     }
 }
