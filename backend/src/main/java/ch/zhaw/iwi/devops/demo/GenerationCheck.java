@@ -19,4 +19,6 @@ public class GenerationCheck {
             return "Generation Beta";
         } else {
             return "unbestimmt";
-}}}
+        }
+    }
+}

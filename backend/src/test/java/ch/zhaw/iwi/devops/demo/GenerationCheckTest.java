@@ -65,8 +65,15 @@ public class GenerationCheckTest {
 
     @Test
 
-    public void GenerationCheckNone(){
+    public void GenerationCheckNodate(){
         GenerationCheck ac = new GenerationCheck();
         assertEquals("unbestimmt", ac.Checking(30000));
+    }
+
+    @Test
+
+    public void GenerationCheckNodate2(){
+        GenerationCheck ac = new GenerationCheck();
+        assertEquals("bevor Christus", -1);
     }
 }
