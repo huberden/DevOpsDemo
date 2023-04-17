@@ -2,7 +2,7 @@ package ch.zhaw.iwi.devops.demo;
 
 public class GenerationCheck {
 
-    public String Checking(int jahrgang){
+    public String CHECK_ING(int jahrgang){
         if (jahrgang >= 2011 && jahrgang <= 2025){
             return "Generation Alpha";
         } else if (jahrgang >= 1997 && jahrgang <= 2010){
@@ -17,8 +17,6 @@ public class GenerationCheck {
             return "Generation Silent";
         } else if (jahrgang >= 2026 && jahrgang <= 2040){
             return "Generation Beta";
-        } else if (jahrgang < 0){
-            return "bevor Christus";
         } else {
             return "unbestimmt";
         }
